@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/app-routing.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1711620574483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711621593765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,17 @@\n import { NgModule } from '@angular/core';\r\n import { RouterModule, Routes } from '@angular/router';\r\n import { AcceuilComponent } from './acceuil/acceuil.component';\r\n import { SolutionComponent } from './solution/solution.component';\r\n+import { WhatWeDoComponent } from './what-we-do/what-we-do.component';\r\n+import { ChoseusComponent } from './choseus/choseus.component';\r\n \r\n const routes: Routes = [\r\n   { path: '', component: AcceuilComponent },\r\n   { path: 'solution', component: SolutionComponent },\r\n-  { path: 'solution', component: SolutionComponent },\r\n+  { path: 'whatwedo', component: WhatWeDoComponent },\r\n+  { path:'choseus',component:ChoseusComponent},\r\n+  { path:'caseutudes',component:SolutionComponent},\r\n ];\r\n \r\n @NgModule({\r\n   imports: [RouterModule.forRoot(routes)],\r\n"
+                },
+                {
+                    "date": 1711621645593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,15 +3,21 @@\n import { AcceuilComponent } from './acceuil/acceuil.component';\r\n import { SolutionComponent } from './solution/solution.component';\r\n import { WhatWeDoComponent } from './what-we-do/what-we-do.component';\r\n import { ChoseusComponent } from './choseus/choseus.component';\r\n+import { Whoarewe1Component } from './whoarewe1/whoarewe1.component';\r\n+import { Whoarewe2Component } from './whoarewe2/whoarewe2.component';\r\n \r\n const routes: Routes = [\r\n   { path: '', component: AcceuilComponent },\r\n   { path: 'solution', component: SolutionComponent },\r\n   { path: 'whatwedo', component: WhatWeDoComponent },\r\n   { path: 'choseus', component: ChoseusComponent },\r\n   { path: 'caseutudes', component: SolutionComponent },\r\n+  { path: 'whoarewe', component: Whoarewe1Component },\r\n+  { path: 'whoarewee', component: Whoarewe2Component },\r\n+\r\n+\r\n ];\r\n \r\n @NgModule({\r\n   imports: [RouterModule.forRoot(routes)],\r\n"
+                }
+            ],
+            "date": 1711620574483,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { AcceuilComponent } from './acceuil/acceuil.component';\r\nimport { SolutionComponent } from './solution/solution.component';\r\n\r\nconst routes: Routes = [\r\n  {path:'',component:AcceuilComponent},\r\n  { path:'solution',component:SolutionComponent},\r\n  { path:'solution',component:SolutionComponent},\r\n\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forRoot(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AppRoutingModule { }\r\n"
+        }
+    ]
+}

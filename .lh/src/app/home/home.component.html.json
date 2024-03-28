@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/app/home/home.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1711619408913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711619427748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,36 @@\n+<section class=\"wrapper image-wrapper bg-image bg-overlay bg-overlay-400 bg-content text-white\"\r\n+data-image-src=\"./assets/img/photos/bg4.jpg\">\r\n+<div class=\"container pt-18 pb-16\" style=\"z-index: 5; position:relative\">\r\n+  <div class=\"row gx-0 gy-12 align-items-center\">\r\n+    <div class=\"col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start\"\r\n+      data-cues=\"slideInDown\" data-group=\"page-title\" data-delay=\"600\">\r\n+      <h1 class=\"display-2 mb-5 text-white\">Crafting project specific solutions with expertise.</h1>\r\n+      <p class=\"lead fs-lg lh-sm mb-7 pe-xl-10\">We’re a creative company that focuses on establishing long-term\r\n+        relationships with customers.</p>\r\n+      <div class=\"d-flex justify-content-center justify-content-lg-start\" data-cues=\"slideInDown\"\r\n+        data-group=\"page-title-buttons\" data-delay=\"900\">\r\n+        <span><a href=\"#\" class=\"btn btn-lg btn-white rounded-pill me-2\">Explore Now</a></span>\r\n+        <span><a href=\"#\" class=\"btn btn-lg btn-outline-white rounded-pill\">Contact Us</a></span>\r\n+      </div>\r\n+    </div>\r\n+    <!--/column -->\r\n+    <div class=\"col-lg-5 offset-lg-1\">\r\n+      <div class=\"basic-slider owl-carousel dots-over shadow-lg\" data-nav=\"true\" data-margin=\"5\">\r\n+        <div class=\"item\"><img src=\"./assets/img/photos/about21.jpg\"\r\n+            srcset=\"./assets/img/photos/about21@2x.jpg 2x\" class=\"rounded\" alt=\"\" /></div>\r\n+        <div class=\"item\"><a href=\"./assets/media/movie.mp4\"\r\n+            class=\"btn btn-circle btn-white btn-play ripple mx-auto mb-5 position-absolute\"\r\n+            style=\"top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;\" data-glightbox\r\n+            data-gallery=\"hero\"><i class=\"icn-caret-right\"></i></a><img src=\"./assets/img/photos/about22.jpg\"\r\n+            srcset=\"./assets/img/photos/about22@2x.jpg 2x\" class=\"rounded\" alt=\"\" /></div>\r\n+        <div class=\"item\"><img src=\"./assets/img/photos/about23.jpg\"\r\n+            srcset=\"./assets/img/photos/about23@2x.jpg 2x\" class=\"rounded\" alt=\"\" /></div>\r\n+      </div>\r\n+      <!-- /.basic-slider -->\r\n+    </div>\r\n+    <!-- /column -->\r\n+  </div>\r\n+  <!-- /.row -->\r\n+</div>\r\n+<!-- /.container -->\r\n+</section>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711619435527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n             </div>\r\n             <!--/column -->\r\n             <div class=\"col-lg-5 offset-lg-1\">\r\n                 <div class=\"basic-slider owl-carousel dots-over shadow-lg\" data-nav=\"true\" data-margin=\"5\">\r\n-                    <div class=\"item\"><img src=\"./assets/img/photos/about21.jpg\"\r\n+                    <div class=\"item\"><img src=\"../../assets/img/photos/about21.jpg\"\r\n                             srcset=\"./assets/img/photos/about21@2x.jpg 2x\" class=\"rounded\" alt=\"\" /></div>\r\n                     <div class=\"item\"><a href=\"./assets/media/movie.mp4\"\r\n                             class=\"btn btn-circle btn-white btn-play ripple mx-auto mb-5 position-absolute\"\r\n                             style=\"top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;\" data-glightbox\r\n"
+                },
+                {
+                    "date": 1711619470606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,15 +18,15 @@\n             <div class=\"col-lg-5 offset-lg-1\">\r\n                 <div class=\"basic-slider owl-carousel dots-over shadow-lg\" data-nav=\"true\" data-margin=\"5\">\r\n                     <div class=\"item\"><img src=\"../../assets/img/photos/about21.jpg\"\r\n                             srcset=\"./assets/img/photos/about21@2x.jpg 2x\" class=\"rounded\" alt=\"\" /></div>\r\n-                    <div class=\"item\"><a href=\"../../assets/media/movie.mp4\"\r\n+                    <div class=\"item\"><a href=\"./assets/media/movie.mp4\"\r\n                             class=\"btn btn-circle btn-white btn-play ripple mx-auto mb-5 position-absolute\"\r\n                             style=\"top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;\" data-glightbox\r\n                             data-gallery=\"hero\"><i class=\"icn-caret-right\"></i></a><img\r\n                             src=\"./assets/img/photos/about22.jpg\" srcset=\"./assets/img/photos/about22@2x.jpg 2x\"\r\n                             class=\"rounded\" alt=\"\" /></div>\r\n-                    <div class=\"item\"><img src=\"./assets/img/photos/about23.jpg\"\r\n+                    <div class=\"item\"><img src=\"../../assets/img/photos/about23.jpg\"\r\n                             srcset=\"./assets/img/photos/about23@2x.jpg 2x\" class=\"rounded\" alt=\"\" /></div>\r\n                 </div>\r\n                 <!-- /.basic-slider -->\r\n             </div>\r\n"
+                }
+            ],
+            "date": 1711619408913,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

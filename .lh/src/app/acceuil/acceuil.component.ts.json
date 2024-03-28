@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/acceuil/acceuil.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1711618940923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1711618940923,
+            "name": "Commit-0",
+            "content": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-acceuil',\r\n  templateUrl: './acceuil.component.html',\r\n  styleUrl: './acceuil.component.css'\r\n})\r\nexport class AcceuilComponent {\r\n\r\n  \r\n}\r\n"
+        }
+    ]
+}

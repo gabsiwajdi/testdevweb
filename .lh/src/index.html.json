@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1711623497689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711623580186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     crossorigin=\"anonymous\"></script>\r\n   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js\"\r\n     integrity=\"sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==\"\r\n     crossorigin=\"anonymous\"></script>\r\n-  <script src=\"src/assets/js/plugins.js\" type=\"application/json\"></script>\r\n-  <script src=\"src/assets/js/theme.js\" type=\"application/json\"></script>\r\n+  <script type=\"text/javascript\" src=\"src/assets/js/plugins.js\"></script>\r\n+  <script type=\"text/javascript\" src=\"src/assets/js/theme.js\" type=\"application/json\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1711623497689,
+            "name": "Commit-0",
+            "content": "<!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Wajditest</title>\r\n  <base href=\"/\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\r\n\r\n  <link rel=\"shortcut icon\" href=\"/src/assets/img/favicon.png\">\r\n  <link rel=\"stylesheet\" href=\"/src/assets/css/plugins.css\"> \r\n  <link rel=\"stylesheet\" href=\"/src/assets/css/style.css\">\r\n  <link rel=\"stylesheet\" href=\"/src/assets/css/colors/purple.css\">\r\n</head>\r\n<body>\r\n  <app-root></app-root>\r\n\r\n\r\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\" crossorigin=\"anonymous\"></script>\r\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js\" integrity=\"sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==\" crossorigin=\"anonymous\"></script>\r\n  <script src=\"src/assets/js/plugins.js\" type=\"application/json\"></script>\r\n  <script src=\"src/assets/js/theme.js\" type=\"application/json\"></script>\r\n</body>\r\n</html>\r\n"
+        }
+    ]
+}

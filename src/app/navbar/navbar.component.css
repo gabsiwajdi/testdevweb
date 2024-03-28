@@ -1,35 +1,7 @@
-/* Style pour positionner la barre de navigation en haut */
 .container {
-    background-image: url('/src/assets/img/photos/bg2.jpg');
-    display: flex; /* Affichage en mode flex */
-    justify-content: space-between; /* Alignement des éléments sur l'axe horizontal avec un espacement égal */
-    align-items: center; /* Alignement des éléments sur l'axe vertical */
-    background-color: #f8f9fa; /* Couleur de fond */
-    padding: 10px 20px; /* Espacement intérieur */
+  background-image: url("../../assets/img/photos/bg2.jpg");
+  
   }
   
-  
-  /* Style pour les éléments de la liste */
-  .navbar-nav {
-    display: flex; /* Affichage en mode flex */
-    list-style: none; /* Suppression des puces de liste */
-  }
-  
-  /* Style pour chaque élément de la liste */
-  .navbar-nav .nav-item {
-    margin-right: 20px; 
-  }
-  
-  /* Style pour les liens de la barre de navigation */
-  .navbar-nav .nav-link {
-    color: #000; /* Couleur du texte */
-  }
-  
-  /* Style pour cacher le hamburger sur les grands écrans */
-  @media (min-width: 992px) {
-    .navbar-hamburger {
-      display: none; /* Cacher le hamburger */
-    }
-  }
 
   

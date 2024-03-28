@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/what-we-do/what-we-do.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1711622049095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1711622049095,
+            "name": "Commit-0",
+            "content": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-what-we-do',\r\n  templateUrl: './what-we-do.component.html',\r\n  styleUrl: './what-we-do.component.css'\r\n})\r\nexport class WhatWeDoComponent {\r\n\r\n}\r\n"
+        }
+    ]
+}

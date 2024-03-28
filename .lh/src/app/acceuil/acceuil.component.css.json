@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/acceuil/acceuil.component.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1711617169266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711617192237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n }\r\n \r\n /* Ajouter une image de fond */\r\n .wrapper {\r\n-    background-image: url('./assets/img/photos/bg4.jpg');\r\n+    background-image: url('../../assets/img/photos/bg4.jpg');\r\n     background-size: cover;\r\n     background-position: center;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1711619939255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,24 +0,0 @@\n-/* Aligner les photos à gauche et le texte à droite */\r\n-.wrapper .container .row {\r\n-    display: flex;\r\n-    flex-direction: row;\r\n-    justify-content: space-between;\r\n-    align-items: center;\r\n-}\r\n-\r\n-/* Ajouter une image de fond */\r\n-.wrapper {\r\n-    background-image: url('../../assets/img/photos/bg4.jpg');\r\n-    background-size: cover;\r\n-    background-position: center;\r\n-}\r\n-\r\n-/* Styling du texte */\r\n-.wrapper .content {\r\n-    width: 45%; /* Ajuster la largeur du texte à droite */\r\n-}\r\n-\r\n-/* Styling des boutons */\r\n-.wrapper .content .btn {\r\n-    margin-right: 10px; /* Espacement entre les boutons */\r\n-}\r\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1711617169266,
+            "name": "Commit-0",
+            "content": "/* Aligner les photos à gauche et le texte à droite */\r\n.wrapper .container .row {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n/* Ajouter une image de fond */\r\n.wrapper {\r\n    background-image: url('./assets/img/photos/bg4.jpg');\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n/* Styling du texte */\r\n.wrapper .content {\r\n    width: 45%; /* Ajuster la largeur du texte à droite */\r\n}\r\n\r\n/* Styling des boutons */\r\n.wrapper .content .btn {\r\n    margin-right: 10px; /* Espacement entre les boutons */\r\n}\r\n"
+        }
+    ]
+}
